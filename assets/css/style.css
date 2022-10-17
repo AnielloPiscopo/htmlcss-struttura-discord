@@ -7,6 +7,10 @@
     background-color: pink;
 }
 
+img{
+    background-color: aqua;
+}
+
 header nav{
     background: yellow;
 }
@@ -100,4 +104,25 @@ ul{
 
 
 /*todo Main Section */
-main
+main .container{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: 25rem;
+    background-color: white;
+}
+
+main .container:nth-child(even){
+    background-color: grey;
+}
+
+main .container img{
+    width: 60%;
+}
+
+main .container .text-content{
+    width: 40%;
+}
+
+main .container:nth-child(even) .text-content{
+    order: 1;
+}
