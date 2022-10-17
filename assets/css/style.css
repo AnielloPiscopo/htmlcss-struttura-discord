@@ -187,10 +187,24 @@ footer nav{
     height: 70%;
 }
 
+footer .social-links{
+    width: 30%;
+}
+
+footer ul{
+    width: 70%;
+}
+
 footer ul.flex{
     flex-direction: column;
 }
 
-footer div{
-    height: 30%;
+footer .logo-container{
+    height: 10%;
+    padding-top: 1rem;
+}
+
+footer .logo,
+footer button{
+    width: 10%;
 }
