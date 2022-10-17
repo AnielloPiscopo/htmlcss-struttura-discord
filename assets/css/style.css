@@ -1,3 +1,25 @@
+/*! MOMENTANEAL CHANGES */
+.text-content{
+    background-color: pink;
+}
+
+header{
+    background-color: blue;
+}
+
+header nav{
+    background: yellow;
+}
+
+main{
+    background-color: brown;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
 /** GENERIC STYLE INFORMATIONS */
 
 /*todo Universal Selector */
@@ -28,21 +50,12 @@ ul{
     display: flex;
 }
 
-.text-content{
-    background-color: pink;
-}
-
 
 
 /** SPECIFI STYLE INFORMATIONS */
 /*todo Header Section */
 header{
-    background-color: blue;
     padding-top: 1rem ;
-}
-
-header nav{
-    background: yellow;
 }
 
 header nav.flex{
@@ -69,17 +82,4 @@ header ul.flex li{
 
 header button{
     text-align: end;
-}
-
-
-/*todo Main Section */
-main{
-    background-color: brown;
-}
-
-
-/*todo Footer Section */
-footer{
-    background-color: black;
-    color: white;
 }
