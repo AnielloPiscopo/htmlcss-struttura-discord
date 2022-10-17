@@ -1,10 +1,10 @@
 /*! MOMENTANEAL CHANGES */
-.text-content{
-    background-color: pink;
-}
-
 header{
     background-color: blue;
+}
+
+.text-content{
+    background-color: pink;
 }
 
 header nav{
@@ -53,9 +53,16 @@ ul{
 
 
 /** SPECIFI STYLE INFORMATIONS */
+
 /*todo Header Section */
 header{
     padding-top: 1rem ;
+    height: 30rem;
+}
+
+/* Header Navbar */
+header nav{
+    height: 10%;
 }
 
 header nav.flex{
@@ -83,3 +90,5 @@ header ul.flex li{
 header button{
     text-align: end;
 }
+
+/* Header Text-content */
