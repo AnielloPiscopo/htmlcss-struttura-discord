@@ -7,16 +7,16 @@
     background-color: pink;
 }
 
+.download{
+    background-color: red;
+}
+
 img{
     background-color: aqua;
 }
 
 header nav{
     background: yellow;
-}
-
-main{
-    background-color: brown;
 }
 
 footer{
@@ -115,6 +115,11 @@ main .container:nth-child(even){
     background-color: grey;
 }
 
+main .container:last-of-type{
+    height: 40rem;
+    flex-direction: column;
+}
+
 main .container img{
     width: 60%;
 }
@@ -123,6 +128,25 @@ main .container .text-content{
     width: 40%;
 }
 
-main .container:nth-child(even) .text-content{
+main .container:nth-child(odd).flex .text-content{
     order: 1;
+}
+
+main .container:last-of-type{
+    display: block;
+}
+
+main .container:last-of-type img{
+    display: block;
+    width: 100%;
+    height: 40%;
+}
+
+main .container:last-of-type .text-content{
+    height: 20%;
+    width: 100%;
+}
+
+main .container .download{
+    height: 20%;
 }
