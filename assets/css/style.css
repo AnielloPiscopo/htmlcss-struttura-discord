@@ -1,5 +1,5 @@
 /*! MOMENTANEAL CHANGES */
-header{
+#main-header{
     background-color: blue;
 }
 
@@ -42,7 +42,7 @@ ul{
 
 /*todo Classes */
 .container{
-    width: 70%;
+    padding: 0 15%;
     margin: 0 auto;
 }
 
@@ -55,46 +55,46 @@ ul{
 /** SPECIFI STYLE INFORMATIONS */
 
 /*todo Header Section */
-header{
+#main-header{
     padding-top: 1rem ;
     height: 30rem;
 }
 
 /* Header Navbar */
-header nav{
+#main-header nav{
     height: 10%;
 }
 
-header nav.flex{
+#main-header nav.flex{
     align-items: center;
 }
 
-header .logo,
-header button{
+#main-header .logo,
+#main-header button{
     width: 20%;
 }
 
-header ul{
+#main-header ul{
     width: 60%;
 }
 
-header ul.flex{
+#main-header ul.flex{
     justify-content: space-around;
     padding: 0.5rem calc(100%/3);
 }
 
-header ul.flex li{
+#main-header ul.flex li{
     padding: 0 1.5rem;
 }
 
-header button{
+#main-header button{
     text-align: end;
 }
 
 /* Header Text-content */
-header .text-content{
+#main-header .text-content{
     height: 70%;
-    width: 50%;
+    width: 75%;
     margin: 3rem auto;
 }
 
