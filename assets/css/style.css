@@ -33,6 +33,14 @@ footer div{
     background-color: brown;
 }
 
+hr{
+    color: blue;
+}
+
+
+
+
+
 /** GENERIC STYLE INFORMATIONS */
 
 /*todo Universal Selector */
@@ -41,6 +49,7 @@ footer div{
     margin: 0;
     padding: 0;
 }
+
 
 
 /*todo Tag HTML */
@@ -52,9 +61,6 @@ ul{
     list-style: none;
 }
 
-hr{
-    color: white;
-}
 
 
 /*todo Classes */
@@ -83,6 +89,8 @@ hr{
 
 
 
+
+
 /** SPECIFI STYLE INFORMATIONS */
 
 /*todo Header Section */
@@ -90,6 +98,7 @@ hr{
     padding-top: 1rem ;
     height: 30rem;
 }
+
 
 /* Header Navbar */
 #main-header nav{
@@ -122,12 +131,14 @@ hr{
     text-align: end;
 }
 
+
 /* Header Text-content */
 #main-header .text-content{
     height: 70%;
     width: 75%;
     margin: 3rem auto;
 }
+
 
 
 /*todo Main Section */
@@ -178,21 +189,23 @@ main .container .download{
 }
 
 
+
 /*todo Footer Section */
-footer{
-    height: 30rem;
+footer.container{
+    height: 40rem;
+    padding-top: 0.5rem;
 }
 
 footer nav{
-    height: 70%;
+    height: 80%;
 }
 
 footer .social-links{
-    width: 40%;
+    width: 30%;
 }
 
 footer ul{
-    width: 60%;
+    width: calc(70%/4);
 }
 
 footer ul.flex{
@@ -207,4 +220,8 @@ footer .logo-container{
 footer .logo,
 footer button{
     width: 10%;
+}
+
+footer hr{
+    margin: 1.5rem 0;
 }
