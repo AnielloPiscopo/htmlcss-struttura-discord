@@ -149,3 +149,9 @@ main .container:last-of-type .text-content{
 main .container .download{
     height: 20%;
 }
+
+
+/*todo Footer Section */
+footer ul.flex{
+    flex-direction: column;
+}
