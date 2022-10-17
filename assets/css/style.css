@@ -92,3 +92,8 @@ header button{
 }
 
 /* Header Text-content */
+header .text-content{
+    height: 70%;
+    width: 50%;
+    margin: 3rem auto;
+}
