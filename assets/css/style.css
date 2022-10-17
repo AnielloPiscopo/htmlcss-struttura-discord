@@ -13,6 +13,10 @@ button{
     border: none;
 }
 
+ul{
+    list-style: none;
+}
+
 
 /*todo Classes */
 .container{
@@ -24,18 +28,44 @@ button{
     display: flex;
 }
 
+.text-content{
+    background-color: pink;
+}
+
 
 
 /** SPECIFI STYLE INFORMATIONS */
 /*todo Header Section */
 header{
-    background-color: blue; 
+    background-color: blue;
+    padding: 1rem 0;
 }
 
 header nav{
     background: yellow;
 }
 
+header .logo,
+header button{
+    width: 20%;
+}
+
+header ul{
+    width: 60%;
+}
+
+header ul.flex{
+    justify-content: space-around;
+    padding: 0.5rem calc(100%/3);
+}
+
+header ul.flex li{
+    padding: 0 1.5rem;
+}
+
+header button{
+    text-align: end;
+}
 
 /*todo Main Section */
 main{
