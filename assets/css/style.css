@@ -24,6 +24,15 @@ footer{
     color: white;
 }
 
+footer ul{
+    background-color: beige;
+    color: black;
+}
+
+footer div{
+    background-color: brown;
+}
+
 /** GENERIC STYLE INFORMATIONS */
 
 /*todo Universal Selector */
@@ -43,6 +52,10 @@ ul{
     list-style: none;
 }
 
+hr{
+    color: white;
+}
+
 
 /*todo Classes */
 .container{
@@ -52,6 +65,20 @@ ul{
 
 .flex{
     display: flex;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fl-lf{
+    float: left;
+}
+
+.fl-rg{
+    float: right;
 }
 
 
@@ -152,6 +179,18 @@ main .container .download{
 
 
 /*todo Footer Section */
+footer{
+    height: 30rem;
+}
+
+footer nav{
+    height: 70%;
+}
+
 footer ul.flex{
     flex-direction: column;
+}
+
+footer div{
+    height: 30%;
 }
