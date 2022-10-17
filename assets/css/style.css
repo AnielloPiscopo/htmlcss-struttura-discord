@@ -38,11 +38,15 @@ ul{
 /*todo Header Section */
 header{
     background-color: blue;
-    padding: 1rem 0;
+    padding-top: 1rem ;
 }
 
 header nav{
     background: yellow;
+}
+
+header nav.flex{
+    align-items: center;
 }
 
 header .logo,
@@ -66,6 +70,7 @@ header ul.flex li{
 header button{
     text-align: end;
 }
+
 
 /*todo Main Section */
 main{
