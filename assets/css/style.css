@@ -6,3 +6,45 @@
     margin: 0;
     padding: 0;
 }
+
+
+/*todo Tag HTML */
+button{
+    border: none;
+}
+
+
+/*todo Classes */
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+
+
+/** SPECIFI STYLE INFORMATIONS */
+/*todo Header Section */
+header{
+    background-color: blue; 
+}
+
+header nav{
+    background: yellow;
+}
+
+
+/*todo Main Section */
+main{
+    background-color: brown;
+}
+
+
+/*todo Footer Section */
+footer{
+    background-color: black;
+    color: white;
+}
