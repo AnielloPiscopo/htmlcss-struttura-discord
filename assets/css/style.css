@@ -141,7 +141,7 @@ ul{
 }
 
 #jumbodron .text-content.container{
-    width: 60%;
+    width: 50%;
     height: 100%;
     padding: 10% 0;
 }
@@ -151,7 +151,7 @@ ul{
 main .container{
     padding-top: 3rem;
     padding-bottom: 3rem;
-    height: 25rem;
+    height: 30rem;
     background-color: white;
 }
 
