@@ -121,9 +121,6 @@ ul{
 
 #main-header ul.flex{
     align-items: center;
-}
-
-#main-header ul.flex{
     justify-content: space-around;
     padding: 0.5rem calc(100%/3);
 }
