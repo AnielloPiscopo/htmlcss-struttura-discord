@@ -142,6 +142,7 @@ ul{
 
 #jumbodron .text-content.container{
     width: 60%;
+    height: 100%;
     padding: 10% 0;
 }
 
